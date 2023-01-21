@@ -1,4 +1,4 @@
-import { oauth1a } from './twitter-api-fetch'
+import { oauth1a } from 'twitter-api-fetch/edge'
 
 export interface Env {
 	TWITTER_API_ACCESS_TOKEN: string
