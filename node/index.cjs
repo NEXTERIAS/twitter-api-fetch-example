@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const { oauth1a } = require('twitter-api-fetch')
+const { oauth1a } = require('@nexterias/twitter-api-fetch')
 
 async function main() {
   const fetcher = await oauth1a({

@@ -1,16 +1,6 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "twitter-api-fetch": "^2.0.1"
+    "@nexterias/twitter-api-fetch": "npm:@jsr/nexterias__twitter-api-fetch@^3.0.0",
+    "dotenv": "^16.0.3"
   }
 }

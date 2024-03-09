@@ -1,20 +1,37 @@
-lockfileVersion: 5.4
+lockfileVersion: '6.0'
 
-specifiers:
-  dotenv: ^16.0.3
-  twitter-api-fetch: ^2.0.1
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
-  dotenv: 16.0.3
-  twitter-api-fetch: 2.0.1
+  '@nexterias/twitter-api-fetch':
+    specifier: npm:@jsr/nexterias__twitter-api-fetch@^3.0.0
+    version: /@jsr/nexterias__twitter-api-fetch@3.0.0
+  dotenv:
+    specifier: ^16.0.3
+    version: 16.0.3
+  twitter-api-fetch:
+    specifier: ^2.0.1
+    version: 2.0.1
 
 packages:
 
-  /@deno/shim-crypto/0.3.1:
+  /@deno/shim-crypto@0.3.1:
     resolution: {integrity: sha512-ed4pNnfur6UbASEgF34gVxR9p7Mc3qF+Ygbmjiil8ws5IhNFhPDFy5vE5hQAUA9JmVsSxXPcVLM5Rf8LOZqQ5Q==}
     dev: false
 
-  /cross-fetch/3.1.5:
+  /@jsr/nexterias__twitter-api-fetch@3.0.0:
+    resolution: {integrity: sha512-ryZWh5juuXoQ5OMTm5jB//rrgy1wq3yWCcZJZWti06Etz86tAl4MhUYbaVqLkmWMZ84OdbHFye6dU0FlBFHSZw==, tarball: https://npm.jsr.io/~/7/@jsr/nexterias__twitter-api-fetch/3.0.0.tgz}
+    dependencies:
+      '@jsr/std__encoding': 0.219.1
+    dev: false
+
+  /@jsr/std__encoding@0.219.1:
+    resolution: {integrity: sha512-VWPCat9ZbEkdmh6R0bFhUESYowEQHPdH4Q0skwTwoXOoXsOR5AEpjYz+mowW8pKkrV6+ERo5TGO95q8AivWjoA==, tarball: https://npm.jsr.io/~/7/@jsr/std__encoding/0.219.1.tgz}
+    dev: false
+
+  /cross-fetch@3.1.5:
     resolution: {integrity: sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==}
     dependencies:
       node-fetch: 2.6.7
@@ -22,12 +39,12 @@ packages:
       - encoding
     dev: false
 
-  /dotenv/16.0.3:
+  /dotenv@16.0.3:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
     dev: false
 
-  /node-fetch/2.6.7:
+  /node-fetch@2.6.7:
     resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
@@ -39,11 +56,11 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /tr46/0.0.3:
+  /tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: false
 
-  /twitter-api-fetch/2.0.1:
+  /twitter-api-fetch@2.0.1:
     resolution: {integrity: sha512-zogjD+il346Wa6YQJ5m2zWncZblVL+v2BBg++OmUBgc1QOg/KzOR+WbWLrNJemlC5jMqmnZrcZVDk22/Cx675g==}
     dependencies:
       '@deno/shim-crypto': 0.3.1
@@ -52,11 +69,11 @@ packages:
       - encoding
     dev: false
 
-  /webidl-conversions/3.0.1:
+  /webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
     dev: false
 
-  /whatwg-url/5.0.0:
+  /whatwg-url@5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3

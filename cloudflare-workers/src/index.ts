@@ -1,4 +1,4 @@
-import { oauth1a } from 'twitter-api-fetch/edge'
+import { oauth1a } from '@nexterias/twitter-api-fetch'
 
 export interface Env {
   TWITTER_API_ACCESS_TOKEN: string

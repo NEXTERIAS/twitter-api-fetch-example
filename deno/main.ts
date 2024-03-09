@@ -1,4 +1,4 @@
-import { oauth1a } from 'https://deno.land/x/twitter_api_fetch/mod.ts'
+import { oauth1a } from 'jsr:@nexterias/twitter-api-fetch'
 import { config } from "https://deno.land/x/dotenv/mod.ts";
 
 const {
